@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+/* For WebKit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Adjust color */
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
