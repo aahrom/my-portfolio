@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 const App: React.FC = () => {
   return (
     <>
-      <Header /> 
+      
       <Home />
       <About />
       <Projects />
